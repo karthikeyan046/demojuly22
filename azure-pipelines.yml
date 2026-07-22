@@ -28,6 +28,6 @@ steps:
 # Deploy to Azure Web App
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'demojuly22'
-    appName: 'demorit'
+    azureSubscription: 'demojuly23'
+    appName: 'demotoday'
     package: '$(Build.ArtifactStagingDirectory)/app.zip'
